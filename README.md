@@ -16,8 +16,9 @@ It is a PUT request. It allows you to pass a json object in the below format to 
 rather than generating the identifier automatically.
 { current: 1000 }
 
-The api url is mentioned below :
-https://ih7zr6gilj.execute-api.us-east-1.amazonaws.com/latest
+The api urls is mentioned below :
+https://ih7zr6gilj.execute-api.us-east-1.amazonaws.com/latest/v1/current
+https://ih7zr6gilj.execute-api.us-east-1.amazonaws.com/latest/v1/next
 
 
 
