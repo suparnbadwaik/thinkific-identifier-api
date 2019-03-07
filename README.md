@@ -22,6 +22,8 @@ https://ih7zr6gilj.execute-api.us-east-1.amazonaws.com/latest
 
 
 # Behind the Scenes :
+The logic to generate the identifier could have included data store or key value pair like Redis but since the app was to be stateless and use of data store or key value pair is prohibited, I have taken a static variable that stores the value for the identifier, increments, displays and updates it.
+
 Within the Nodejs API, I have used a package the Claudia API Builder package in order to create the methods in the API.
 Claudia API Builder also helps to directly generate and publish the API routes to AWS API Gateway.
 
